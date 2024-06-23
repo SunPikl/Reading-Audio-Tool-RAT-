@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Changer</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+
+<body>
+  <h1>Font Changer</h1>
+  <div>
+    <label for="font-family-select">Font Family:</label>
+    <select id="font-family-select">
+      <option value="Arial">Arial</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Tahoma">Tahoma</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="font-size-range">Font Size:</label>
+    <input type="range" id="font-size-range" min="8" max="32" step="1" value="16">
+    <output for="font-size-range" id="font-size-value">16px</output>
+  </div>
+
+  <button id="changeFontBtn">Change Font</button>
+
+     <h1>Hello Extensions</h1>
+    
+
+    
+    <script src="popup.js"></script>
+</body>
+</html>

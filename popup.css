@@ -1,0 +1,13 @@
+/* Styles for the popup interface */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  select, input[type="range"] {
+    margin-bottom: 10px;
+  }
+  
